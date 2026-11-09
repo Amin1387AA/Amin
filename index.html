@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090b14" />
+  <meta name="description" content="وب‌سایت شخصی امین نعمتی؛ برنامه‌نویس، طراح وب و علاقه‌مند به فناوری اطلاعات." />
+  <title>امین نعمتی | برنامه‌نویس و طراح وب</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <header class="header" id="top">
+    <a class="logo" href="#top" aria-label="امین نعمتی، خانه">
+      <span class="logo-mark">A</span>
+      <span>امین<span class="logo-dot">.</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="باز کردن منو" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="navigation" id="navigation" aria-label="منوی اصلی">
+      <a href="#home">خانه</a>
+      <a href="#about">درباره من</a>
+      <a href="#skills">مهارت‌ها</a>
+      <a href="#projects">نمونه‌کارها</a>
+      <a href="#contact" class="nav-contact">ارتباط با من <span>↙</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="availability"><span></span> آماده همکاری روی پروژه‌های جذاب</div>
+        <p class="hello">سلام، من</p>
+        <h1>امین <span class="gradient-text">نعمتی</span> هستم</h1>
+        <h2 class="job-line">یک <span id="typingText"></span><span class="typing-cursor">|</span></h2>
+        <p class="hero-description">
+          به دنیای من خوش اومدی! من وب‌سایت‌هایی زیبا، سریع و کاربردی طراحی می‌کنم
+          و از تبدیل ایده‌ها به تجربه‌های دیجیتال لذت می‌برم.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">دیدن نمونه‌کارها <span>↙</span></a>
+          <a class="button button-ghost" href="#contact">بیا صحبت کنیم <span>✦</span></a>
+        </div>
+
+        <div class="social-links" aria-label="شبکه‌های اجتماعی">
+          <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="گیت‌هاب">GH</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="لینکدین">in</a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="اینستاگرام">◎</a>
+          <span class="social-caption">شبکه‌های اجتماعی من</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="تصویر گرافیکی برنامه‌نویسی">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="code-window">
+          <div class="window-top">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <span>amin.js</span>
+            <span class="window-lock">⌑</span>
+          </div>
+          <div class="code-content" dir="ltr">
+            <p><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</p>
+            <p class="indent"><span class="code-red">name</span>: <span class="code-green">"Amin Nemati"</span>,</p>
+            <p class="indent"><span class="code-red">role</span>: <span class="code-green">"Web Developer"</span>,</p>
+            <p class="indent"><span class="code-red">creative</span>: <span class="code-orange">true</span>,</p>
+            <p class="indent"><span class="code-red">coffee</span>: <span class="code-orange">∞</span></p>
+            <p>};</p>
+            <p class="code-comment">// Let's build something great ✨</p>
+          </div>
+          <div class="window-status"><span></span> همه‌چیز آماده است</div>
+        </div>
+        <div class="floating-chip chip-html"><b>&lt;/&gt;</b> HTML</div>
+        <div class="floating-chip chip-js"><b>JS</b> JavaScript</div>
+        <div class="floating-chip chip-css"><b>#</b> CSS</div>
+        <div class="hero-star star-one">✦</div>
+        <div class="hero-star star-two">✧</div>
+      </div>
+
+      <a class="scroll-hint" href="#about"><span></span> برای آشنایی بیشتر اسکرول کن</a>
+    </section>
+
+    <section class="about section-wrap section" id="about">
+      <div class="section-label"><span>01</span> کمی درباره من</div>
+      <div class="about-grid">
+        <div class="about-heading reveal">
+          <h2>ایده‌ها را به<br /><span class="gradient-text">تجربه تبدیل می‌کنم.</span></h2>
+          <div class="about-symbol">✳</div>
+        </div>
+        <div class="about-copy reveal">
+          <p>
+            من امین نعمتی هستم؛ برنامه‌نویس و طراح وب با علاقه‌ای جدی به فناوری اطلاعات.
+            تمرکزم روی ساخت تجربه‌های دیجیتال ساده، زیبا و قابل‌استفاده است.
+          </p>
+          <p>
+            در هر پروژه تلاش می‌کنم طراحی چشم‌نواز را با کدنویسی تمیز، عملکرد خوب
+            و توجه به نیاز واقعی کاربران همراه کنم.
+          </p>
+          <a class="text-link" href="#contact">درباره پروژه‌ات صحبت کنیم <span>←</span></a>
+        </div>
+      </div>
+
+      <div class="stats-grid reveal">
+        <div class="stat-card"><strong data-count="15">۰</strong><span>پروژه‌های تمرینی و شخصی</span></div>
+        <div class="stat-card"><strong data-count="8">۰</strong><span>فناوری در جعبه‌ابزارم</span></div>
+        <div class="stat-card"><strong data-count="100">۰</strong><span>درصد اشتیاق به یادگیری</span></div>
+        <div class="stat-card"><strong>∞</strong><span>ایده برای ساختن</span></div>
+      </div>
+    </section>
+
+    <section class="skills section-wrap section" id="skills">
+      <div class="section-label"><span>02</span> ابزارهای من</div>
+      <div class="section-title-row">
+        <div>
+          <h2>مهارت‌هایی برای <span class="gradient-text">ساختن</span></h2>
+          <p>ابزارهایی که با آن‌ها ایده‌ها را به محصول تبدیل می‌کنم.</p>
+        </div>
+        <span class="decorative-code">&lt;skills /&gt;</span>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-icon icon-orange">&lt;/&gt;</div>
+          <h3>HTML5</h3><p>ساختاردهی استاندارد و دسترس‌پذیر صفحات وب</p>
+          <div class="skill-meter"><span style="--level: 90%"></span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon icon-blue">#</div>
+          <h3>CSS3</h3><p>طراحی واکنش‌گرا، انیمیشن و رابط کاربری جذاب</p>
+          <div class="skill-meter"><span style="--level: 85%"></span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon icon-yellow">JS</div>
+          <h3>JavaScript</h3><p>تعامل‌پذیری و ساخت قابلیت‌های پویای وب</p>
+          <div class="skill-meter"><span style="--level: 75%"></span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon icon-cyan">⚛</div>
+          <h3>React</h3><p>ساخت رابط‌های کاربری کامپوننت‌محور</p>
+          <div class="skill-meter"><span style="--level: 65%"></span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon icon-purple">⌘</div>
+          <h3>Git & GitHub</h3><p>مدیریت نسخه و همکاری روی پروژه‌های نرم‌افزاری</p>
+          <div class="skill-meter"><span style="--level: 70%"></span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon icon-green">◈</div>
+          <h3>UI / UX</h3><p>طراحی تجربه‌ای ساده و قابل‌فهم برای کاربران</p>
+          <div class="skill-meter"><span style="--level: 72%"></span></div>
+        </article>
+      </div>
+      <p class="skills-note">فناوری‌های بیشتر: <span>Python</span> <span>PHP</span> <span>SQL</span> <span>Node.js</span> — در حال یادگیری و توسعه</p>
+    </section>
+
+    <section class="projects section-wrap section" id="projects">
+      <div class="section-label"><span>03</span> کارهای منتخب</div>
+      <div class="section-title-row">
+        <div>
+          <h2>چند پروژه‌ی <span class="gradient-text">من</span></h2>
+          <p>نمونه‌هایی از ایده‌هایی که به دنیای وب آورده‌ام.</p>
+        </div>
+        <div class="project-filters" id="projectFilters">
+          <button class="filter-button active" data-filter="all">همه</button>
+          <button class="filter-button" data-filter="web">وب‌سایت</button>
+          <button class="filter-button" data-filter="app">اپلیکیشن</button>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal" data-category="web">
+          <div class="project-preview preview-shop">
+            <span class="preview-label">فروشگاه آنلاین</span>
+            <div class="mock-shop">
+              <div class="mock-nav"></div>
+              <div class="mock-hero"><span></span><i></i></div>
+              <div class="mock-products"><b></b><b></b><b></b></div>
+            </div>
+            <span class="preview-number">۰۱</span>
+          </div>
+          <div class="project-details">
+            <div><h3>فروشگاه مدرن</h3><p>طراحی رابط فروشگاهی واکنش‌گرا</p></div>
+            <a href="#contact" aria-label="اطلاعات بیشتر درباره فروشگاه">↙</a>
+          </div>
+          <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+
+        <article class="project-card reveal" data-category="app">
+          <div class="project-preview preview-dashboard">
+            <span class="preview-label">داشبورد مدیریت</span>
+            <div class="mock-dashboard"><i></i><div><b></b><b></b><b></b><b></b></div><span></span></div>
+            <span class="preview-number">۰۲</span>
+          </div>
+          <div class="project-details">
+            <div><h3>داشبورد داده</h3><p>نمایش داده‌ها با طراحی ساده و خوانا</p></div>
+            <a href="#contact" aria-label="اطلاعات بیشتر درباره داشبورد">↙</a>
+          </div>
+          <div class="project-tags"><span>JavaScript</span><span>UI Design</span></div>
+        </article>
+
+        <article class="project-card reveal" data-category="web">
+          <div class="project-preview preview-portfolio">
+            <span class="preview-label">وب‌سایت شخصی</span>
+            <div class="mock-portfolio"><b>CREATE<br />YOUR<br /><em>FUTURE.</em></b><span>✳</span></div>
+            <span class="preview-number">۰۳</span>
+          </div>
+          <div class="project-details">
+            <div><h3>صفحه معرفی خلاقانه</h3><p>صفحه فرود برای معرفی یک برند شخصی</p></div>
+            <a href="#contact" aria-label="اطلاعات بیشتر درباره صفحه معرفی">↙</a>
+          </div>
+          <div class="project-tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+        </article>
+      </div>
+      <p class="portfolio-note">پروژه‌های بالا نمونه‌های نمایشی هستند؛ می‌توانی آن‌ها را با لینک نمونه‌کارهای واقعی خودت جایگزین کنی.</p>
+    </section>
+
+    <section class="contact section-wrap section" id="contact">
+      <div class="contact-box reveal">
+        <div class="contact-content">
+          <div class="section-label"><span>04</span> ارتباط با من</div>
+          <h2>ایده‌ای توی ذهنته؟<br /><span class="gradient-text">با هم بسازیمش.</span></h2>
+          <p>برای همکاری، پرسش یا گپ درباره فناوری، پیام بده. خوشحال می‌شم ازت بشنوم.</p>
+          <a class="email-link" href="mailto:amin@example.com">amin@example.com <span>↗</span></a>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label for="name">نام شما</label>
+          <input id="name" name="name" type="text" placeholder="مثلاً سارا محمدی" required maxlength="80" />
+          <label for="email">ایمیل شما</label>
+          <input id="email" name="email" type="email" placeholder="name@example.com" required maxlength="120" />
+          <label for="message">پیام شما</label>
+          <textarea id="message" name="message" rows="4" placeholder="درباره ایده‌ات بنویس..." required maxlength="1000"></textarea>
+          <button class="button button-primary submit-button" type="submit">آماده‌سازی ایمیل <span>↙</span></button>
+          <small>این فرم ایمیل را در برنامه‌ی ایمیل شما آماده می‌کند و اطلاعات را در سایت ذخیره نمی‌کند.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap">
+    <a class="logo" href="#top"><span class="logo-mark">A</span><span>امین<span class="logo-dot">.</span></span></a>
+    <p>با دقت، خلاقیت و چند فنجان قهوه ساخته شده ☕</p>
+    <span>© <span id="year"></span> امین نعمتی</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
